@@ -1,4 +1,4 @@
-# hobby-app
+# Breaking Boredom
 name work in progress
 
 an app to help people find a new hobby. created by constantine alajandro and daron
