@@ -1,9 +1,28 @@
-<!DOCTYPE HTML>
-    <html>
-        <head>
-            <title> Breaking Boredom </title>
-              <style>
-                body {
+p{
+	font-family: Calibri, Arial, serif;
+
+		}
+		h1{
+			font-family: "Calisto MT", "Arial", serif;
+
+		}
+		h2{
+			font-family: "Calisto MT", "Arial", serif;
+
+				}
+		h3{
+			font-family: "Calisto MT", "Arial", serif;
+
+				}
+		h4{
+			font-family: "Calisto MT", "Arial", serif;
+
+				}
+		h5{
+			font-family: "Calisto MT", "Arial", serif;
+
+				}
+		body {
                 margin: 0;
                 padding: 0;
                 }
@@ -35,31 +54,3 @@
                 ul li a:hover {
                 background-color: #111111;
                 }
-                </style>
-                        </head>
-            <body>
-
-                <ul><li><a href="#home">Home</a></li>
-                    <li><a href="#Hobbies">Hobbies</a></li>
-                    <li><a href="#Login">Login</a></li>
-                    <li><a href="#Sign Up">Sign Up</a></li></ul>
-             
-                <h3>Welcome!</h3>
-                <p>Welcome to Breaking Boredom!</p>
-            </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</html>
