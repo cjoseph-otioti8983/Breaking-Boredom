@@ -1,0 +1,82 @@
+p{
+	font-family: Calibri, Arial, serif;
+
+		}
+		h1{
+			font-family: "Consolas", "Arial", serif;
+
+		}
+		h2{
+			font-family: "Consolas", "Arial", serif;
+
+				}
+		h3{
+			font-family: "Consolas", "Arial", serif;
+
+				}
+		h4{
+			font-family: "Consolas", "Arial", serif;
+
+				}
+		h5{
+			font-family: "Consolas", "Arial", serif;
+
+				}
+		body {
+                margin: 0;
+                padding: 0;
+                }
+
+                h2, p {
+                margin: 10px;
+                }
+
+                ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333333;
+                }
+
+                ul li {
+                float: left;
+                }
+
+                ul li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                }
+
+                ul li a:hover {
+                background-color: #111111;
+                }
+
+.button {
+ border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+    background-color: #275DAD;
+    color: black;
+}
+.button1:hover {
+    background-color: #165580;
+}
+.button2 {
+    background-color: #aba9c3;
+}
+.button2:hover {
+    background-color: #79788d;
+}
