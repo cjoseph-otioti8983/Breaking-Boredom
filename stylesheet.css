@@ -66,6 +66,7 @@ p{
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
+    border-radius: 10%;
 }
 .button1 {
     background-color: #275DAD;
@@ -79,4 +80,35 @@ p{
 }
 .button2:hover {
     background-color: #79788d;
+}
+img {
+    border-radius: 5%;
+}
+body, html {
+    height: 100%;
+}
+
+
+.hero-image {
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("kucukgulberkan-sunset-5383043.jpg");
+
+  height: 50%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+body {
+    background-color: #ced3dc;
 }
