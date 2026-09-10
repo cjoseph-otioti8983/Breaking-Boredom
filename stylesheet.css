@@ -112,3 +112,11 @@ body, html {
 body {
     background-color: #ced3dc;
 }
+.hobby-left {
+    text-align: left;
+    translate: max(350px);
+}
+.hobby-right {
+    text-align: right;
+    translate: max(-650px);
+}
