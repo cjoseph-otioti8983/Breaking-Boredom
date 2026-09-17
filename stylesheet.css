@@ -77,6 +77,7 @@ p{
 }
 .button2 {
     background-color: #aba9c3;
+    color: rgb(0 0 0);
 }
 .button2:hover {
     background-color: #79788d;
@@ -91,7 +92,7 @@ body, html {
 
 .hero-image {
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("kucukgulberkan-sunset-5383043.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("sunset.jpg");
 
   height: 50%;
 
