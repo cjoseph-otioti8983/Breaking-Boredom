@@ -1,9 +1,181 @@
-<html>
+
+<html lang="en">
     <head>
-        <title> Quiz Page </title>
+        <title>Quiz Page</title>
+        <meta charset="UTF-8">
+        <style>
+            body {
+                background-color: #333333;
+                color: white;
+                font-family: Arial;
+            }
+
+            .quiz {
+                width: 600px;
+                margin: auto;
+            }
+
+            .question {
+                background-color: #444444;
+                padding: 20px;
+                margin: 20px 0;
+                border-radius: 10px;
+            }
+
+            label {
+                display: block;
+                margin: 12px 0;
+            }
+
+            button {
+                padding: 12px 25px;
+                font-size: 18px;
+                cursor: pointer;
+            }
+        </style>
     </head>
 
-    <body style="background-color: lightblue;">
-        <h1>Quiz Page</h1>
+    <body>
+
+        <div class="quiz">
+
+            <h1>Hobby Recommendation Quiz</h1>
+            <p>Answer these questions to find a hobby you might enjoy!</p>
+
+
+            <!-- Question 1 -->
+            <div class="question">
+                <h2>1. What do you like doing in your free time?</h2>
+
+                <label>
+                    <input type="radio" name="q1" value="creative">
+                    Creating things
+                </label>
+
+                <label>
+                    <input type="radio" name="q1" value="games">
+                    Playing games
+                </label>
+
+                <label>
+                    <input type="radio" name="q1" value="active">
+                    Being active
+                </label>
+
+                <label>
+                    <input type="radio" name="q1" value="learning">
+                     Learning new things
+                </label>
+            </div>
+
+
+            <!-- Question 2 -->
+            <div class="question">
+                <h2>2. Would you rather spend your hobby time...</h2>
+
+                <label>
+                    <input type="radio" name="q2" value="indoors">
+                    Indoors
+                </label>
+
+                <label>
+                    <input type="radio" name="q2" value="outdoors">
+                    Outdoors
+                </label>
+
+                <label>
+                    <input type="radio" name="q2" value="mix">
+                    A mix of both
+                </label>
+
+                <label>
+                    <input type="radio" name="q2" value="anywhere">
+                    Anywhere, as long as it's fun
+                </label>
+            </div>
+
+
+            <!-- Question 3 -->
+            <div class="question">
+                <h2>3. What kind of activities sound most fun?</h2>
+
+                <label>
+                    <input type="radio" name="q3" value="building">
+                    Making or building something
+                </label>
+
+                <label>
+                    <input type="radio" name="q3" value="competing">
+                    Competing or challenging myself
+                </label>
+
+                <label>
+                    <input type="radio" name="q3" value="relaxing">
+                    Relaxing and expressing myself
+                </label>
+
+                <label>
+                    <input type="radio" name="q3" value="exploring">
+                    Exploring and trying new things
+                </label>
+            </div>
+
+
+            <!-- Question 4 -->
+            <div class="question">
+                <h2>4. How much time would you want to spend on a hobby?</h2>
+
+                <label>
+                    <input type="radio" name="q4" value="minutes">
+                    A few minutes a day
+                </label>
+
+                <label>
+                    <input type="radio" name="q4" value="daily">
+                    30–60 minutes a day
+                </label>
+
+                <label>
+                    <input type="radio" name="q4" value="weekly">
+                    A few hours a week
+                </label>
+
+                <label>
+                    <input type="radio" name="q4" value="free">
+                    Whenever I have free time
+                </label>
+            </div>
+
+
+            <!-- Question 5 -->
+            <div class="question">
+                <h2>5. What is most important to you in a hobby?</h2>
+
+                <label>
+                    <input type="radio" name="q5" value="creative">
+                    Being creative
+                </label>
+
+                <label>
+                    <input type="radio" name="q5" value="fun">
+                    Having fun
+                </label>
+
+                <label>
+                    <input type="radio" name="q5" value="skills">
+                    Improving my skills
+                </label>
+
+                <label>
+                    <input type="radio" name="q5" value="social">
+                    Meeting or connecting with people
+                </label>
+            </div>
+
+
+            <button type="button">Submit Quiz</button>
+
+        </div>
     </body>
 </html>
+
