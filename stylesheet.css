@@ -66,7 +66,7 @@ p{
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
-    border-radius: 10%;
+    border-radius: 8px;
 }
 .button1 {
     background-color: #275DAD;
@@ -92,7 +92,7 @@ body, html {
 
 .hero-image {
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("sunset.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/sunset.jpg");
 
   height: 50%;
 
@@ -120,4 +120,20 @@ body {
 .hobby-right {
     text-align: right;
     translate: max(-650px);
+}
+.quiz {
+    width: 600px;
+    margin: auto;
+}
+
+.question {
+    background-color: #444444;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.label {
+    display: block;
+    margin: 12px 0;
 }
